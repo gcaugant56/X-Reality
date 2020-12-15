@@ -3,25 +3,24 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class mobCC : MonoBehaviour{
-    public float speed = 1f;
-    public float gravity = 20f;
-    private Vector3 moveDirection = Vector3.zero;
-    CharacterController cc;
-    public GameObject cubeRouge;
+
+    Camera cam = null;
+    public float speed = 20.0f;
 
     // Start is called before the first frame update
     void Start(){
-        cc = GetComponent<CharacterController>();
-        cubeRouge = GameObject.Find("CubeRouge");
+
+        cam = FindObjectOfType<Camera>();
+        
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        moveDirection = new Vector3(0, 0, Input.GetAxis("Vertical"));
-        moveDirection = transform.TransformDirection(moveDirection);
-        moveDirection *= speed; 
-        moveDirection.y -= gravity * Time.deltaTime;
-        cc.Move(moveDirection * Time.deltaTime);
+    void Update(){
+
+        //suivi de la camera par le mob
+        this.transform.rotation = Quaternion.LookRotation(Vector3.Normalize(cam.transform.position - this.transform.position), Vector3.up);
+
+        this.transform.Translate(this.transform.forward * speed * Time.deltaTime);
+
     }
 }
