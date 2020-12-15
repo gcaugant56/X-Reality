@@ -9,6 +9,10 @@ public class mobCC : MonoBehaviour{
     public float gravity = 20f;
     private Vector3 moveDirection = Vector3.zero;
     CharacterController cc;
+    private float Xcam;
+    private float Zcam;
+    private float Xmob;
+    private float Ymob;
 
     // Start is called before the first frame update
     void Start(){
@@ -25,13 +29,15 @@ public class mobCC : MonoBehaviour{
 
         //this.transform.Translate(this.transform.forward * speed * Time.deltaTime);
 
+
         moveDirection = new Vector3(0, 0, 1);
         moveDirection = transform.TransformDirection(moveDirection);
-        moveDirection *= speed;
         moveDirection.y -= gravity * Time.deltaTime;
-        cc.Move(moveDirection * Time.deltaTime);
+        cc.Move(moveDirection * speed * Time.deltaTime);
         //Debug.Log(cam.transform.position - this.transform.position);
 
 
     }
+
+    
 }

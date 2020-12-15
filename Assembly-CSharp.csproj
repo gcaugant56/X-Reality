@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/mobCC.cs" />
+    <Compile Include="Assets/mobCollisions.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
