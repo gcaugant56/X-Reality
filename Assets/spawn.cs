@@ -17,16 +17,15 @@ public class spawn : MonoBehaviour
         create = spawnEnemi(nbSpawn);
     }
 
-    public GameObject spawnEnemi(int i)
+    public void spawnEnemi(int i)
     {
         while(enemyCount < i)
         {
             xPos = Random.Range(this.transform.position.x-30, this.transform.position.x +30);
             zPos = Random.Range(this.transform.position.z-30, this.transform.position.z +30);
             enemyCount +=1 ;
-            return Instantiate(enemi, new Vector3(xPos,0,zPos), Quaternion.identity);            
+            Instantiate(enemi, new Vector3(xPos,0,zPos), Quaternion.identity);            
         } 
-        return null;
     }
 
     void Update()
