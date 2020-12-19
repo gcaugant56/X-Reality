@@ -42,4 +42,9 @@ public class Press_Space_to_Fire : MonoBehaviour
             Destroy(Temporary_Bullet_Handler, 10.0f);
         }
     }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        Destroy(collision.gameObject);
+    }
 }
