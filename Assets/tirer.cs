@@ -20,7 +20,7 @@ public class press_space : MonoBehaviour
     void Start()
     {
         Button btn = feu.GetComponent<Button>();
-        btn.onClick.AddListener(TaskOnClick);
+        btn.onClick.AddListener(() => TaskOnclick());
     }
 
     void TaskOnclick()
