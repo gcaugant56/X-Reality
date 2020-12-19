@@ -1,11 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Assets",
-    "\\Assets\\Scenes",
-    "\\Assets\\script",
-    "\\Temp\\ProcessJobs"
+    "\\Assets"
   ],
-  "SelectedNode": "\\Assets\\script\\reticule.cs",
+  "SelectedNode": "\\Assets\\script",
   "PreviewInSolutionExplorer": false
 }
