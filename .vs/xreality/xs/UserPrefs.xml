@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{5B832C70-20DC-97F5-F9DB-CE6A93906212}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/mobCC.cs">
+    <Files>
+      <File FileName="Assets/mobCC.cs" Line="50" Column="6" />
+      <File FileName="Assets/mobCollisions.cs" Line="7" Column="5" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="xreality" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="mobCC.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="96425725-9146-4bd0-875f-8ba87501052f" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
