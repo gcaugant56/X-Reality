@@ -5,7 +5,7 @@ using UnityEngine;
 public class spawn : MonoBehaviour
 {
     public GameObject enemi;
-    public GameObject create;
+    public Camera camera;
     public float xPos;
     public float zPos;
     public int enemyCount;
@@ -21,8 +21,8 @@ public class spawn : MonoBehaviour
     {
         while(enemyCount < i)
         {
-            xPos = Random.Range(this.transform.position.x-10, this.transform.position.x +10);
-            zPos = Random.Range(this.transform.position.z-10, this.transform.position.z +10);
+            xPos = Random.Range(camera.transform.position.x-10, camera.transform.position.x +10);
+            zPos = Random.Range(camera.transform.position.z-10, camera.transform.position.z +10);
             enemyCount +=1 ;
             Instantiate(enemi, new Vector3(xPos,0,zPos), Quaternion.identity);            
         } 

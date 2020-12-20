@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1610900886684478583}
   - component: {fileID: 4024603358677819429}
   - component: {fileID: -7437157697746376685}
-  - component: {fileID: 7079891252270777879}
+  - component: {fileID: -7610030738831395446}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -113,7 +113,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 2
---- !u!114 &7079891252270777879
+--- !u!114 &-7610030738831395446
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -125,3 +125,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 769e3f811edee43009e3f471f8cb4101, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemi: {fileID: 656221444215058029, guid: 9dae494f16ff24a00b7b97b831413d39, type: 3}
+  camera: {fileID: 6195333254297023455, guid: 0765a2d88ca844208b35a128616440a8, type: 3}
+  xPos: 0
+  zPos: 0
+  enemyCount: 0
+  nbSpawn: 0

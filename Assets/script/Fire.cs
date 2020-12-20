@@ -15,14 +15,57 @@ public class Fire : MonoBehaviour
     public float Bullet_Forward_Force;
 
     public Button feu;
+    public Button up;
+    public Button down;
+    public Button left;
+    public Button right;
+    public Camera camera;
     // Use this for initialization
 
     void Start()
     {
         Button btn = feu.GetComponent<Button>();
         btn.onClick.AddListener(() => TaskOnclick());
+        Button downBtn = down.GetComponent<Button>();
+        downBtn.onClick.AddListener(() => MoveDown());
+        Button upBtn = up.GetComponent<Button>();
+        upBtn.onClick.AddListener(() => MoveUp());
+        Button leftBtn = left.GetComponent<Button>();
+        leftBtn.onClick.AddListener(() => MoveLeft());
+        Button rigthBtn = right.GetComponent<Button>();
+        rigthBtn.onClick.AddListener(() => MoveRight());
     }
 
+    void MoveLeft()
+    {
+        Vector3 rotate = camera.transform.eulerAngles;
+        Debug.Log(rotate.y);
+        rotate.y = rotate.y - 10;
+        camera.transform.eulerAngles = rotate;
+    }
+    void MoveRight()
+    {
+        Vector3 rotate = camera.transform.eulerAngles;
+        Debug.Log(rotate.y);
+        rotate.y = rotate.y + 10;
+        camera.transform.eulerAngles = rotate;
+
+    }
+    void MoveUp()
+    {
+        Vector3 rotate = camera.transform.eulerAngles;
+        Debug.Log(rotate.x);
+        rotate.x = rotate.x - 10;
+        camera.transform.eulerAngles = rotate;
+
+    }
+    void MoveDown()
+    {
+        Vector3 rotate = camera.transform.eulerAngles;
+        Debug.Log(rotate.x);
+        rotate.x = rotate.x + 10;
+        camera.transform.eulerAngles = rotate;
+    }
     void TaskOnclick()
     {
 
@@ -46,8 +89,5 @@ public class Fire : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
 
-    }
 }
