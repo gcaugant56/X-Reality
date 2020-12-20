@@ -8,6 +8,8 @@
 /nostdlib+
 /preferreduilang:en-US
 /langversion:latest
+/reference:"/Applications/Unity/Hub/Editor/2020.1.17f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
+/reference:"/Applications/Unity/Hub/Editor/2020.1.17f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
 /reference:"/Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Managed/UnityEditor.dll"
 /reference:"/Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll"
 /reference:"/Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ARModule.dll"
@@ -186,7 +188,7 @@
 /reference:"/Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlDocument.dll"
 /reference:"/Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlSerializer.dll"
 /reference:"/Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll"
-/reference:"/Users/valentincamozzi/Documents/git/xreality/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll"
+/reference:"/Users/guillaumecaugant/X-Reality/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll"
 /reference:"Library/ScriptAssemblies/Unity.Rider.Editor.dll"
 /reference:"Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll"
 /reference:"Library/ScriptAssemblies/Unity.TextMeshPro.dll"
@@ -296,4 +298,6 @@
 /define:UNITY_STANDALONE
 /define:UNITY_STANDALONE_OSX
 /define:UNITY_TEAM_LICENSE
-"Assets/mobCC.cs"
+"Assets/script/mobCC.cs"
+"Assets/script/spawn.cs"
+"Assets/tirer.cs"

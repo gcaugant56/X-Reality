@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637439030730000000
+      ticks: 637440653070000000
     m_Hash: 684564761
   m_LockFileStatus:
     m_FilePath: /Users/guillaumecaugant/X-Reality/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637439030970000000
+      ticks: 637440653790000000
     m_Hash: 1402641761
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
