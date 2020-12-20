@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 
-public class fire : MonoBehaviour
+public class Fire : MonoBehaviour
 {
     //Drag in the Bullet Emitter from the Component Inspector.
     public GameObject Bullet_Emitter;
@@ -50,11 +50,4 @@ public class fire : MonoBehaviour
     {
 
     }
-
-    void OnTriggerEnter(Collider col)
-    {
-        Destroy(col.gameObject);
-    }
-
-
 }
