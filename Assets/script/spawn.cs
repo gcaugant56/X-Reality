@@ -1,40 +1,63 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class spawn : MonoBehaviour
 {
     public GameObject enemi;
-    public Camera camera;
+    public GameObject textDead;
+    public Text textNbWave;
     public float xPos;
     public float zPos;
-    public int enemyCount;
-    public int nbSpawn;
-    
+    private bool dead = false;
+    public int wave = 0;
+
     void Start()
     {
-        nbSpawn = 1;
-        spawnEnemi(nbSpawn);
+        textDead.SetActive(false);
+        StartCoroutine(spawnEnemi(3));
+        textNbWave.text = wave.ToString();
     }
 
-    public void spawnEnemi(int i)
+    IEnumerator spawnEnemi(int i)
     {
-        while(enemyCount < i)
+        yield return new WaitForSeconds(10);
+        if (dead == false)
         {
-            xPos = Random.Range(camera.transform.position.x-10, camera.transform.position.x +10);
-            zPos = Random.Range(camera.transform.position.z-10, camera.transform.position.z +10);
-            enemyCount +=1 ;
-            Instantiate(enemi, new Vector3(xPos,0,zPos), Quaternion.identity);            
-        } 
+            for (int j = 0; j < i; j++)
+            {
+
+                xPos = Random.Range(this.transform.position.x - 20, this.transform.position.x + 20);
+                zPos = Random.Range(this.transform.position.z - 20, this.transform.position.z + 20);
+                while(xPos < this.transform.position.x + 10 && xPos > this.transform.position.x - 10 || zPos < this.transform.position.z + 10 && zPos > this.transform.position.z - 10)
+                {
+                    xPos = Random.Range(this.transform.position.x - 20, this.transform.position.x + 20);
+                    zPos = Random.Range(this.transform.position.z - 20, this.transform.position.z + 20);
+                }
+                Instantiate(enemi, new Vector3(xPos, 0, zPos), Quaternion.identity);
+            }
+            wave++;
+            textNbWave.text = wave.ToString();
+        }
+
+        Debug.Log(i);
+        StartCoroutine(spawnEnemi(i + 1));
     }
 
     void Update()
     {
-        if(enemyCount == 0 )
+      
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log(other.gameObject.name);
+        if (other.gameObject.name.Contains("mob"))
         {
-            nbSpawn +=1;
-            spawnEnemi(nbSpawn);
+            textDead.SetActive(true);
+            dead = true;
+
         }
     }
-    
+
 }

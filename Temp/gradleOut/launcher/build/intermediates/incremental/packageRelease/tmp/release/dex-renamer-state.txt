@@ -1,0 +1,4 @@
+#Mon Dec 21 03:09:48 CET 2020
+base.0=/Users/valentincamozzi/Documents/git/xreality/Temp/gradleOut/launcher/build/intermediates/dex/release/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,9 +1,9 @@
 {
-    "m_SelectedDeviceId": "7MB9X17926G04664",
+    "m_SelectedDeviceId": "R58MA3C7Z0X",
     "m_SelectedPackage": {
-        "deviceId": "7MB9X17926G04664",
-        "name": "com.DefaultCompany.Survival",
-        "processId": 8154,
+        "deviceId": "R58MA3C7Z0X",
+        "name": "com.Survival.testGame",
+        "processId": 19690,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -18,6 +18,96 @@
             "deviceId": "7MB9X17926G04664",
             "name": "com.DefaultCompany.Survival",
             "processId": 8154,
+            "exited": false
+        },
+        {
+            "deviceId": "R58MA3C7Z0X",
+            "name": "com.Survival.testGame",
+            "processId": 5735,
+            "exited": false
+        },
+        {
+            "deviceId": "R58MA3C7Z0X",
+            "name": "com.Survival.testGame",
+            "processId": 19692,
+            "exited": false
+        },
+        {
+            "deviceId": "R58MA3C7Z0X",
+            "name": "com.Survival.testGame",
+            "processId": 24733,
+            "exited": false
+        },
+        {
+            "deviceId": "R58MA3C7Z0X",
+            "name": "com.Survival.testGame",
+            "processId": 21472,
+            "exited": true
+        },
+        {
+            "deviceId": "R58MA3C7Z0X",
+            "name": "com.Survival.testGame",
+            "processId": 23337,
+            "exited": false
+        },
+        {
+            "deviceId": "R58MA3C7Z0X",
+            "name": "com.Survival.testGame",
+            "processId": 25271,
+            "exited": false
+        },
+        {
+            "deviceId": "R58MA3C7Z0X",
+            "name": "com.Survival.testGame",
+            "processId": 28371,
+            "exited": false
+        },
+        {
+            "deviceId": "R58MA3C7Z0X",
+            "name": "com.Survival.testGame",
+            "processId": 30126,
+            "exited": false
+        },
+        {
+            "deviceId": "R58MA3C7Z0X",
+            "name": "com.Survival.testGame",
+            "processId": 31972,
+            "exited": false
+        },
+        {
+            "deviceId": "R58MA3C7Z0X",
+            "name": "com.Survival.testGame",
+            "processId": 446,
+            "exited": false
+        },
+        {
+            "deviceId": "R58MA3C7Z0X",
+            "name": "com.Survival.testGame",
+            "processId": 5007,
+            "exited": false
+        },
+        {
+            "deviceId": "R58MA3C7Z0X",
+            "name": "com.Survival.testGame",
+            "processId": 6823,
+            "exited": false
+        },
+        {
+            "deviceId": "R58MA3C7Z0X",
+            "name": "com.Survival.testGame",
+            "processId": 9260,
+            "exited": false
+        },
+        {
+            "deviceId": "R58MA3C7Z0X",
+            "name": "com.Survival.testGame",
+            "processId": 17119,
+            "exited": true
+        },
+        {
+            "deviceId": "R58MA3C7Z0X",
+            "name": "com.Survival.testGame",
+            "processId": 19690,
             "exited": false
         }
     ],

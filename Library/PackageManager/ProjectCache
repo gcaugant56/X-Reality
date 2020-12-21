@@ -1,20 +1,20 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: /Users/guillaumecaugant/X-Reality/Packages/manifest.json
+    m_FilePath: /Users/valentincamozzi/Documents/git/xreality/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637440823090000000
-    m_Hash: 858822857
+      ticks: 637441005600000000
+    m_Hash: 3902849156
   m_LockFileStatus:
-    m_FilePath: /Users/guillaumecaugant/X-Reality/Packages/packages-lock.json
+    m_FilePath: /Users/valentincamozzi/Documents/git/xreality/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637440849440000000
-    m_Hash: 1496748678
+      ticks: 637441005610000000
+    m_Hash: 699526588
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -25,7 +25,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.3.9
       source: 1
-      resolvedPath: /Users/guillaumecaugant/X-Reality/Library/PackageCache/com.unity.collab-proxy@1.3.9
+      resolvedPath: /Users/valentincamozzi/Documents/git/xreality/Library/PackageCache/com.unity.collab-proxy@1.3.9
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Unity Collaborate
@@ -42,9 +42,45 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.2.3-preview
+        - 1.2.4-preview
+        - 1.2.6
+        - 1.2.7
+        - 1.2.9
+        - 1.2.11
+        - 1.2.15
+        - 1.2.16
+        - 1.2.17-preview.3
+        - 1.3.2
+        - 1.3.3
+        - 1.3.4
+        - 1.3.5
+        - 1.3.6
+        - 1.3.7
+        - 1.3.8
         - 1.3.9
+        - 2.0.0-preview.6
+        - 2.0.0-preview.8
+        - 2.0.0-preview.15
+        - 2.0.0-preview.17
+        - 2.0.0-preview.20
+        - 2.0.0-preview.21
+        - 2.0.0-preview.22
+        - 2.1.0-preview.3
+        - 2.1.0-preview.5
+        - 2.1.0-preview.6
         compatible:
         - 1.3.9
+        - 2.0.0-preview.6
+        - 2.0.0-preview.8
+        - 2.0.0-preview.15
+        - 2.0.0-preview.17
+        - 2.0.0-preview.20
+        - 2.0.0-preview.21
+        - 2.0.0-preview.22
+        - 2.1.0-preview.3
+        - 2.1.0-preview.5
+        - 2.1.0-preview.6
         verified: 1.3.9
       dependencies: []
       resolvedDependencies: []
@@ -71,7 +107,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637314349270000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -84,7 +120,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.1
       source: 1
-      resolvedPath: /Users/guillaumecaugant/X-Reality/Library/PackageCache/com.unity.ide.rider@1.2.1
+      resolvedPath: /Users/valentincamozzi/Documents/git/xreality/Library/PackageCache/com.unity.ide.rider@1.2.1
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -183,7 +219,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.5
       source: 1
-      resolvedPath: /Users/guillaumecaugant/X-Reality/Library/PackageCache/com.unity.ide.visualstudio@2.0.5
+      resolvedPath: /Users/valentincamozzi/Documents/git/xreality/Library/PackageCache/com.unity.ide.visualstudio@2.0.5
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -200,8 +236,28 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.0.2
+        - 1.0.3
+        - 1.0.4
+        - 1.0.9
+        - 1.0.10
+        - 1.0.11
+        - 2.0.0
+        - 2.0.1
+        - 2.0.2
+        - 2.0.3
         - 2.0.5
         compatible:
+        - 1.0.2
+        - 1.0.3
+        - 1.0.4
+        - 1.0.9
+        - 1.0.10
+        - 1.0.11
+        - 2.0.0
+        - 2.0.1
+        - 2.0.2
+        - 2.0.3
         - 2.0.5
         verified: 2.0.5
       dependencies: []
@@ -219,7 +275,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637400980850000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -232,7 +288,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.3
       source: 1
-      resolvedPath: /Users/guillaumecaugant/X-Reality/Library/PackageCache/com.unity.ide.vscode@1.2.3
+      resolvedPath: /Users/valentincamozzi/Documents/git/xreality/Library/PackageCache/com.unity.ide.vscode@1.2.3
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -249,8 +305,28 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.0.2
+        - 1.0.3
+        - 1.0.7
+        - 1.1.0
+        - 1.1.2
+        - 1.1.3
+        - 1.1.4
+        - 1.2.0
+        - 1.2.1
+        - 1.2.2
         - 1.2.3
         compatible:
+        - 1.0.2
+        - 1.0.3
+        - 1.0.7
+        - 1.1.0
+        - 1.1.2
+        - 1.1.3
+        - 1.1.4
+        - 1.2.0
+        - 1.2.1
+        - 1.2.2
         - 1.2.3
         verified: 1.2.3
       dependencies: []
@@ -268,20 +344,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637394922300000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.vscode.git
-        revision: 547f63839bdc87e0aed2c9e0d84f8f6336a83ea3
+        revision: b5ec9b38109e52b1b26597d521e4df75e042ebb9
         path: 
     - packageId: com.unity.mobile.android-logcat@1.2.0
       testable: 0
       isDirectDependency: 1
       version: 1.2.0
       source: 1
-      resolvedPath: /Users/guillaumecaugant/X-Reality/Library/PackageCache/com.unity.mobile.android-logcat@1.2.0
+      resolvedPath: /Users/valentincamozzi/Documents/git/xreality/Library/PackageCache/com.unity.mobile.android-logcat@1.2.0
       assetPath: Packages/com.unity.mobile.android-logcat
       name: com.unity.mobile.android-logcat
       displayName: Android Logcat
@@ -302,8 +378,24 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 0.1.5-preview
+        - 0.2.7-preview
+        - 1.0.0
+        - 1.0.1-preview
+        - 1.0.3-preview
+        - 1.1.0
+        - 1.1.1
+        - 1.2.0-preview
         - 1.2.0
         compatible:
+        - 0.1.5-preview
+        - 0.2.7-preview
+        - 1.0.0
+        - 1.0.1-preview
+        - 1.0.3-preview
+        - 1.1.0
+        - 1.1.1
+        - 1.2.0-preview
         - 1.2.0
         verified: 1.2.0
       dependencies: []
@@ -324,12 +416,12 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637344782330000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: https://github.com/Unity-Technologies/com.unity.mobile.logcat.git
+        url: git+https://github.com/Unity-Technologies/com.unity.mobile.logcat.git
         revision: e2a927e34d7ac9493c08f3f2a0bdd28dcaa6a589
         path: 
     - packageId: com.unity.mobile.notifications@1.3.2
@@ -337,7 +429,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.3.2
       source: 1
-      resolvedPath: /Users/guillaumecaugant/X-Reality/Library/PackageCache/com.unity.mobile.notifications@1.3.2
+      resolvedPath: /Users/valentincamozzi/Documents/git/xreality/Library/PackageCache/com.unity.mobile.notifications@1.3.2
       assetPath: Packages/com.unity.mobile.notifications
       name: com.unity.mobile.notifications
       displayName: Mobile Notifications
@@ -453,7 +545,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.1.20
       source: 1
-      resolvedPath: /Users/guillaumecaugant/X-Reality/Library/PackageCache/com.unity.test-framework@1.1.20
+      resolvedPath: /Users/valentincamozzi/Documents/git/xreality/Library/PackageCache/com.unity.test-framework@1.1.20
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -540,7 +632,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.1
       source: 1
-      resolvedPath: /Users/guillaumecaugant/X-Reality/Library/PackageCache/com.unity.textmeshpro@3.0.1
+      resolvedPath: /Users/valentincamozzi/Documents/git/xreality/Library/PackageCache/com.unity.textmeshpro@3.0.1
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -575,10 +667,77 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 0.1.2
+        - 1.0.21
+        - 1.0.23
+        - 1.0.25
+        - 1.0.26
+        - 1.1.0
+        - 1.2.0
+        - 1.2.1
+        - 1.2.2
+        - 1.2.3
+        - 1.2.4
+        - 1.3.0-preview
+        - 1.3.0
+        - 1.4.0-preview.1b
+        - 1.4.0-preview.2a
+        - 1.4.0-preview.3a
+        - 1.4.0
+        - 1.4.1-preview.1
+        - 1.4.1
+        - 1.5.0-preview.1
+        - 1.5.0-preview.2
+        - 1.5.0-preview.3
+        - 1.5.0-preview.4
+        - 1.5.0-preview.5
+        - 1.5.0-preview.6
+        - 1.5.0-preview.7
+        - 1.5.0-preview.8
+        - 1.5.0-preview.10
+        - 1.5.0-preview.11
+        - 1.5.0-preview.12
+        - 1.5.0-preview.13
+        - 1.5.0-preview.14
+        - 1.5.0
+        - 1.5.1
+        - 1.5.3
+        - 2.0.0
+        - 2.0.1-preview.1
+        - 2.0.1
+        - 2.1.0-preview.1
+        - 2.1.0-preview.2
+        - 2.1.0-preview.3
+        - 2.1.0-preview.4
+        - 2.1.0-preview.5
+        - 2.1.0-preview.7
+        - 2.1.0-preview.8
+        - 2.1.0-preview.10
+        - 2.1.0-preview.11
+        - 2.1.0-preview.12
+        - 2.1.0-preview.13
+        - 2.1.0-preview.14
+        - 2.1.0
+        - 2.1.1
+        - 2.1.3
+        - 3.0.0-preview.1
+        - 3.0.0-preview.3
+        - 3.0.0-preview.4
+        - 3.0.0-preview.5
+        - 3.0.0-preview.7
+        - 3.0.0-preview.8
+        - 3.0.0-preview.10
+        - 3.0.0-preview.11
+        - 3.0.0-preview.12
+        - 3.0.0-preview.13
+        - 3.0.0-preview.14
+        - 3.0.0
         - 3.0.1
+        - 3.0.3
         compatible:
         - 3.0.1
-        verified: 3.0.1
+        - 3.0.3
+        verified: 3.0.3
       dependencies:
       - name: com.unity.ugui
         version: 1.0.0
@@ -607,7 +766,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637314376320000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -620,7 +779,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.3.6
       source: 1
-      resolvedPath: /Users/guillaumecaugant/X-Reality/Library/PackageCache/com.unity.timeline@1.3.6
+      resolvedPath: /Users/valentincamozzi/Documents/git/xreality/Library/PackageCache/com.unity.timeline@1.3.6
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -822,6 +981,463 @@ m_PackageAssets:
         type: 
         url: 
         revision: 
+        path: 
+    - packageId: com.unity.xr.arcore@3.1.8
+      testable: 0
+      isDirectDependency: 1
+      version: 3.1.8
+      source: 1
+      resolvedPath: /Users/valentincamozzi/Documents/git/xreality/Library/PackageCache/com.unity.xr.arcore@3.1.8
+      assetPath: Packages/com.unity.xr.arcore
+      name: com.unity.xr.arcore
+      displayName: ARCore XR Plugin
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: 'Provides native Google ARCore integration for use with Unity''s
+        multi-platform XR API.
+
+        =Supported Features=
+
+        -Efficient
+        Background Rendering
+
+        -Horizontal Planes
+
+        -Depth Data
+
+        -Anchors
+
+        -Hit
+        Testing'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0-preview.24
+        - 2.0.2
+        - 2.1.0-preview.4
+        - 2.1.0-preview.5
+        - 2.1.0
+        - 2.1.1
+        - 2.1.2
+        - 2.1.8
+        - 2.1.11
+        - 2.1.12
+        - 2.2.0-preview.1
+        - 2.2.0-preview.2
+        - 2.2.0-preview.6
+        - 3.0.0-preview.1
+        - 3.0.0-preview.2
+        - 3.0.0-preview.3
+        - 3.0.0-preview.4
+        - 3.0.1
+        - 3.0.3
+        - 3.0.4
+        - 3.1.0-preview.1
+        - 3.1.0-preview.2
+        - 3.1.0-preview.4
+        - 3.1.0-preview.6
+        - 3.1.0-preview.7
+        - 3.1.0-preview.8
+        - 3.1.3
+        - 3.1.4
+        - 3.1.5
+        - 3.1.7
+        - 3.1.8
+        - 4.0.0-preview.1
+        - 4.0.0-preview.3
+        - 4.0.3
+        - 4.0.4
+        - 4.0.8
+        - 4.0.9
+        - 4.1.0-preview.2
+        - 4.1.0-preview.3
+        - 4.1.0-preview.5
+        - 4.1.0-preview.6
+        - 4.1.0-preview.7
+        - 4.1.0-preview.9
+        - 4.1.0-preview.10
+        - 4.1.0-preview.11
+        - 4.1.0-preview.12
+        - 4.1.0-preview.13
+        - 4.1.1
+        compatible:
+        - 1.0.0-preview.24
+        - 2.0.2
+        - 2.1.0-preview.4
+        - 2.1.0-preview.5
+        - 2.1.0
+        - 2.1.1
+        - 2.1.2
+        - 2.1.8
+        - 2.1.11
+        - 2.1.12
+        - 2.2.0-preview.1
+        - 2.2.0-preview.2
+        - 2.2.0-preview.6
+        - 3.0.0-preview.1
+        - 3.0.0-preview.2
+        - 3.0.0-preview.3
+        - 3.0.0-preview.4
+        - 3.0.1
+        - 3.0.3
+        - 3.0.4
+        - 3.1.0-preview.1
+        - 3.1.0-preview.2
+        - 3.1.0-preview.4
+        - 3.1.0-preview.6
+        - 3.1.0-preview.7
+        - 3.1.0-preview.8
+        - 3.1.3
+        - 3.1.4
+        - 3.1.5
+        - 3.1.7
+        - 3.1.8
+        - 4.0.0-preview.1
+        - 4.0.0-preview.3
+        - 4.0.3
+        - 4.0.4
+        - 4.0.8
+        - 4.0.9
+        - 4.1.0-preview.2
+        - 4.1.0-preview.3
+        - 4.1.0-preview.5
+        - 4.1.0-preview.6
+        - 4.1.0-preview.7
+        - 4.1.0-preview.9
+        - 4.1.0-preview.10
+        - 4.1.0-preview.11
+        - 4.1.0-preview.12
+        - 4.1.0-preview.13
+        - 4.1.1
+        verified: 3.1.8
+      dependencies:
+      - name: com.unity.xr.arsubsystems
+        version: 3.1.6
+      - name: com.unity.xr.management
+        version: 3.2.13
+      - name: com.unity.modules.androidjni
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.xr.arsubsystems
+        version: 3.1.6
+      - name: com.unity.subsystemregistration
+        version: 1.0.6
+      - name: com.unity.xr.management
+        version: 3.2.17
+      - name: com.unity.xr.legacyinputhelpers
+        version: 2.1.6
+      - name: com.unity.modules.androidjni
+        version: 1.0.0
+      keywords:
+      - arcore
+      - ar
+      - augmented
+      - xr
+      - reality
+      - core
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637388000230000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git+https://github.com/Unity-Technologies/upm-xr-arcore.git
+        revision: 49bbf2eb1b0ff93c747496028c4d41b4dccc6e8b
+        path: 
+    - packageId: com.unity.xr.arfoundation@3.1.6
+      testable: 0
+      isDirectDependency: 1
+      version: 3.1.6
+      source: 1
+      resolvedPath: /Users/valentincamozzi/Documents/git/xreality/Library/PackageCache/com.unity.xr.arfoundation@3.1.6
+      assetPath: Packages/com.unity.xr.arfoundation
+      name: com.unity.xr.arfoundation
+      displayName: AR Foundation
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: "A collection of MonoBehaviours and C# utilities for working with
+        AR Subsystems. \n\nIncludes: \n\u25AA GameObject menu items for creating
+        an AR setup \n\u25AA MonoBehaviours that control AR session lifecycle and
+        create GameObjects from detected, real-world trackable features \n\u25AA
+        Scale handling \n\u25AA Face tracking\n\nSamples available at https://github.com/Unity-Technologies/arfoundation-samples"
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0-preview.12
+        - 1.0.0-preview.13
+        - 1.0.0-preview.14
+        - 1.0.0-preview.17
+        - 1.0.0-preview.18
+        - 1.0.0-preview.19
+        - 1.0.0-preview.20
+        - 1.0.0-preview.22
+        - 1.1.0-preview.6
+        - 1.5.0-preview.2
+        - 1.5.0-preview.5
+        - 1.5.0-preview.6
+        - 1.5.0-preview.7
+        - 2.0.2
+        - 2.1.0-preview.2
+        - 2.1.0-preview.3
+        - 2.1.1
+        - 2.1.3
+        - 2.1.4
+        - 2.1.8
+        - 2.1.10
+        - 2.2.0-preview.2
+        - 2.2.0-preview.3
+        - 2.2.0-preview.6
+        - 3.0.0-preview.1
+        - 3.0.0-preview.2
+        - 3.0.0-preview.3
+        - 3.0.0-preview.4
+        - 3.0.0-preview.6
+        - 3.0.1
+        - 3.1.0-preview.1
+        - 3.1.0-preview.3
+        - 3.1.0-preview.4
+        - 3.1.0-preview.6
+        - 3.1.0-preview.7
+        - 3.1.0-preview.8
+        - 3.1.3
+        - 3.1.5
+        - 3.1.6
+        - 4.0.0-preview.1
+        - 4.0.0-preview.3
+        - 4.0.2
+        - 4.0.8
+        - 4.0.9
+        - 4.1.0-preview.1
+        - 4.1.0-preview.2
+        - 4.1.0-preview.3
+        - 4.1.0-preview.5
+        - 4.1.0-preview.6
+        - 4.1.0-preview.7
+        - 4.1.0-preview.9
+        - 4.1.0-preview.10
+        - 4.1.0-preview.11
+        - 4.1.0-preview.12
+        - 4.1.0-preview.13
+        - 4.1.1
+        compatible:
+        - 1.0.0-preview.12
+        - 1.0.0-preview.13
+        - 1.0.0-preview.14
+        - 1.0.0-preview.17
+        - 1.0.0-preview.18
+        - 1.0.0-preview.19
+        - 1.0.0-preview.20
+        - 1.0.0-preview.22
+        - 1.1.0-preview.6
+        - 1.5.0-preview.2
+        - 1.5.0-preview.5
+        - 1.5.0-preview.6
+        - 1.5.0-preview.7
+        - 2.0.2
+        - 2.1.0-preview.2
+        - 2.1.0-preview.3
+        - 2.1.1
+        - 2.1.3
+        - 2.1.4
+        - 2.1.8
+        - 2.1.10
+        - 2.2.0-preview.2
+        - 2.2.0-preview.3
+        - 2.2.0-preview.6
+        - 3.0.0-preview.1
+        - 3.0.0-preview.2
+        - 3.0.0-preview.3
+        - 3.0.0-preview.4
+        - 3.0.0-preview.6
+        - 3.0.1
+        - 3.1.0-preview.1
+        - 3.1.0-preview.3
+        - 3.1.0-preview.4
+        - 3.1.0-preview.6
+        - 3.1.0-preview.7
+        - 3.1.0-preview.8
+        - 3.1.3
+        - 3.1.5
+        - 3.1.6
+        - 4.0.0-preview.1
+        - 4.0.0-preview.3
+        - 4.0.2
+        - 4.0.8
+        - 4.0.9
+        - 4.1.0-preview.1
+        - 4.1.0-preview.2
+        - 4.1.0-preview.3
+        - 4.1.0-preview.5
+        - 4.1.0-preview.6
+        - 4.1.0-preview.7
+        - 4.1.0-preview.9
+        - 4.1.0-preview.10
+        - 4.1.0-preview.11
+        - 4.1.0-preview.12
+        - 4.1.0-preview.13
+        - 4.1.1
+        verified: 3.1.6
+      dependencies:
+      - name: com.unity.xr.arsubsystems
+        version: 3.1.6
+      resolvedDependencies:
+      - name: com.unity.xr.arsubsystems
+        version: 3.1.6
+      - name: com.unity.subsystemregistration
+        version: 1.0.6
+      keywords:
+      - xr
+      - ar
+      - augmented
+      - reality
+      - utility
+      - utilities
+      - foundation
+      - core
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637387999130000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.arfoundation.git
+        revision: 9cc93f422f1db3a9cf141ef496c4ec5d0c91c83a
+        path: 
+    - packageId: com.unity.xr.management@3.2.17
+      testable: 0
+      isDirectDependency: 1
+      version: 3.2.17
+      source: 1
+      resolvedPath: /Users/valentincamozzi/Documents/git/xreality/Library/PackageCache/com.unity.xr.management@3.2.17
+      assetPath: Packages/com.unity.xr.management
+      name: com.unity.xr.management
+      displayName: XR Plugin Management
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: Package to provide for simple management of XR plug-ins. Provides
+        help and management for loading, initialization, settings, and build support
+        for XR plug-ins.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.1.0-preview.8
+        - 0.1.0-preview.12
+        - 1.0.0-preview.2
+        - 2.0.0-preview.3
+        - 2.0.0-preview.6
+        - 2.0.0-preview.9
+        - 2.0.0-preview.10
+        - 2.0.0-preview.13
+        - 2.0.0-preview.21
+        - 2.0.0-preview.22
+        - 2.0.0-preview.24
+        - 2.0.0-preview.25
+        - 2.0.0-preview.26
+        - 3.0.1
+        - 3.0.2-preview.1
+        - 3.0.2-preview.2
+        - 3.0.3
+        - 3.0.4-preview.1
+        - 3.0.4-preview.3
+        - 3.0.4
+        - 3.0.5-preview.1
+        - 3.0.5
+        - 3.0.6-preview.2
+        - 3.0.6
+        - 3.1.0-preview.2
+        - 3.2.4
+        - 3.2.6
+        - 3.2.7
+        - 3.2.9
+        - 3.2.10
+        - 3.2.11-preview.1
+        - 3.2.12
+        - 3.2.13
+        - 3.2.15
+        - 3.2.16
+        - 3.2.17
+        - 4.0.0-exp.2
+        - 4.0.0-pre.2
+        compatible:
+        - 3.2.16
+        - 3.2.17
+        - 4.0.0-exp.2
+        - 4.0.0-pre.2
+        verified: 3.2.17
+      dependencies:
+      - name: com.unity.xr.legacyinputhelpers
+        version: 2.1.2
+      - name: com.unity.subsystemregistration
+        version: 1.0.6
+      resolvedDependencies:
+      - name: com.unity.xr.legacyinputhelpers
+        version: 2.1.6
+      - name: com.unity.subsystemregistration
+        version: 1.0.6
+      keywords:
+      - xr
+      - sdk
+      - ar
+      - vr
+      - management
+      - build
+      - plugin
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637427097710000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/xr.sdk.management.git
+        revision: 24e871f25e2b69734046af31f2a66c3ddfc78bdf
         path: 
     - packageId: com.unity.modules.ai@1.0.0
       testable: 0
@@ -2565,12 +3181,262 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
+    - packageId: com.unity.xr.legacyinputhelpers@2.1.6
+      testable: 0
+      isDirectDependency: 0
+      version: 2.1.6
+      source: 1
+      resolvedPath: /Users/valentincamozzi/Documents/git/xreality/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.6
+      assetPath: Packages/com.unity.xr.legacyinputhelpers
+      name: com.unity.xr.legacyinputhelpers
+      displayName: XR Legacy Input Helpers
+      author:
+        name: 
+        email: 
+        url: 
+      category: XR
+      type: 
+      description: This package includes the tracked pose driver for the legacy input
+        system, the XR Bindings Seeding Tool and 3Dof Arm Model support for the Tracked
+        Pose Driver. The Tracked Pose Driver is a behavior that enables GameObjects
+        to track input devices, the XR Bindings Seeding Tool adds a menu item under
+        the 'Assets' menu which populates the Input Asset with Unity's crossplatform
+        Input Bindings
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        - 1.0.2
+        - 1.0.3
+        - 1.3.1
+        - 1.3.2
+        - 1.3.4
+        - 1.3.5
+        - 1.3.6
+        - 1.3.7
+        - 1.3.8
+        - 1.3.11
+        - 2.0.1
+        - 2.0.2
+        - 2.0.4
+        - 2.0.6
+        - 2.0.8
+        - 2.1.1
+        - 2.1.2
+        - 2.1.3
+        - 2.1.4
+        - 2.1.6
+        - 2.1.7
+        compatible:
+        - 2.1.6
+        - 2.1.7
+        verified: 2.1.7
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - TPD
+      - Tracked Pose Driver
+      - XR
+      - Input
+      - Helpers
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637414048170000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.legacyinputhelpers.git
+        revision: 140e0f02b6efbaa43c8253f6157cb8290e0ebf00
+        path: 
+    - packageId: com.unity.subsystemregistration@1.0.6
+      testable: 0
+      isDirectDependency: 0
+      version: 1.0.6
+      source: 1
+      resolvedPath: /Users/valentincamozzi/Documents/git/xreality/Library/PackageCache/com.unity.subsystemregistration@1.0.6
+      assetPath: Packages/com.unity.subsystemregistration
+      name: com.unity.subsystemregistration
+      displayName: Subsystem Registration
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: Provides internal registration mechanism for standalone subsystems. 
+        It allows a standalone subsystem to inform the Subsystem Manager of its existence.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0-preview.4
+        - 1.0.4
+        - 1.0.5
+        - 1.0.6
+        - 1.1.0
+        compatible:
+        - 1.0.6
+        - 1.1.0
+        verified: 1.1.0
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - subsystem
+      - registration
+      - internal
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637056434700000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git@github.cds.internal.unity3d.com:unity/com.unity.subsystemregistration.git
+        revision: 0b4157c6c0a160c51e74ead305aee77e6f29527d
+        path: 
+    - packageId: com.unity.xr.arsubsystems@3.1.6
+      testable: 0
+      isDirectDependency: 0
+      version: 3.1.6
+      source: 1
+      resolvedPath: /Users/valentincamozzi/Documents/git/xreality/Library/PackageCache/com.unity.xr.arsubsystems@3.1.6
+      assetPath: Packages/com.unity.xr.arsubsystems
+      name: com.unity.xr.arsubsystems
+      displayName: AR Subsystems
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: Contains definitions for AR Subsystems. This package is a dependency
+        of provider packages as well as AR Foundation
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 2.0.2
+        - 2.1.0-preview.1
+        - 2.1.0-preview.2
+        - 2.1.0
+        - 2.1.1
+        - 2.1.2
+        - 2.1.3
+        - 2.2.0-preview.2
+        - 2.2.0-preview.3
+        - 2.2.0-preview.6
+        - 3.0.0-preview.1
+        - 3.0.0-preview.2
+        - 3.0.0-preview.3
+        - 3.0.0-preview.4
+        - 3.0.0
+        - 3.0.2
+        - 3.1.0-preview.1
+        - 3.1.0-preview.2
+        - 3.1.0-preview.4
+        - 3.1.0-preview.6
+        - 3.1.0-preview.7
+        - 3.1.0-preview.8
+        - 3.1.3
+        - 3.1.5
+        - 3.1.6
+        - 4.0.0-preview.1
+        - 4.0.0-preview.3
+        - 4.0.1
+        - 4.0.8
+        - 4.0.9
+        - 4.1.0-preview.1
+        - 4.1.0-preview.2
+        - 4.1.0-preview.3
+        - 4.1.0-preview.5
+        - 4.1.0-preview.6
+        - 4.1.0-preview.7
+        - 4.1.0-preview.9
+        - 4.1.0-preview.10
+        - 4.1.0-preview.11
+        - 4.1.0-preview.12
+        - 4.1.0-preview.13
+        - 4.1.1
+        compatible:
+        - 3.1.3
+        - 3.1.5
+        - 3.1.6
+        - 4.0.0-preview.1
+        - 4.0.0-preview.3
+        - 4.0.1
+        - 4.0.8
+        - 4.0.9
+        - 4.1.0-preview.1
+        - 4.1.0-preview.2
+        - 4.1.0-preview.3
+        - 4.1.0-preview.5
+        - 4.1.0-preview.6
+        - 4.1.0-preview.7
+        - 4.1.0-preview.9
+        - 4.1.0-preview.10
+        - 4.1.0-preview.11
+        - 4.1.0-preview.12
+        - 4.1.0-preview.13
+        - 4.1.1
+        verified: 3.1.6
+      dependencies:
+      - name: com.unity.subsystemregistration
+        version: 1.0.6
+      resolvedDependencies:
+      - name: com.unity.subsystemregistration
+        version: 1.0.6
+      keywords:
+      - subsystem
+      - XR
+      - AR
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637387998540000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.arsubsystems.git
+        revision: c07ff794167dc6c0fea73e83040cac96b6be0a67
+        path: 
     - packageId: com.unity.ext.nunit@1.0.6
       testable: 0
       isDirectDependency: 0
       version: 1.0.6
       source: 1
-      resolvedPath: /Users/guillaumecaugant/X-Reality/Library/PackageCache/com.unity.ext.nunit@1.0.6
+      resolvedPath: /Users/valentincamozzi/Documents/git/xreality/Library/PackageCache/com.unity.ext.nunit@1.0.6
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -2628,5 +3494,5 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-m_ProjectPath: /Users/guillaumecaugant/X-Reality/Packages
+m_ProjectPath: /Users/valentincamozzi/Documents/git/xreality/Packages
 m_EditorVersion: 2020.1.17f1 (9957aee8edc2)
